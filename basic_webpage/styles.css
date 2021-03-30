@@ -1,0 +1,119 @@
+/* Universal Style */
+* {
+  background-color: orange;
+  font-family : arial;
+}
+
+div{
+  border-width: 1px;
+  border-style: dashed;
+  border-color: white;
+}
+
+/* Intro Section Style */
+
+.intro-section{
+  display: flex;
+  text-align: center;
+}
+
+.name-container{
+  width: 50%;
+  height: 200px;
+  
+}
+.image-container{
+  width: 50%;
+  height: 200px;
+  /* padding: 10px; */
+}
+/* -------------------------------------- */
+
+/* Which City Section Style */
+
+.which-city-section{
+  padding: 15px;
+  text-align: justify;
+}
+
+.city-image{
+  margin: auto;
+  float: left;
+  padding: 10px;
+}
+/* -------------------------------------- */
+
+/* Foreign Language Style */
+
+.foreign-language-section{
+  text-align: center;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: auto;
+
+}
+
+table, td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+/* -------------------------------------- */
+
+/* Historical Places Style */
+
+.historic-place{
+  float: left;
+  width: 33.33%;
+  /* margin: 1em; */
+}
+.historical-place-section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* .img-left{
+  float: left;
+} */
+
+.historic-image{
+  float: right;
+  padding: 10px;
+}
+
+/* @media only screen and (max-width: 1100px) {
+  .historic-places-section {
+    display: grid;
+  }
+  
+  .historic-place{
+    width: 100%;
+    margin: 1em;
+  }
+  .move{
+    float: left;
+  }
+  
+} */
+
+/* @media only screen and (max-width: 365px) {
+  .which-city-section {
+    display: grid;
+  }
+
+  .historic-place{
+    display: grid;
+    width: 100%;
+    margin: 1em;
+  }
+  
+  .city-image{
+    margin: auto;
+  }
+} */
+  /* -------------------------------------- */
